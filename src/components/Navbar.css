@@ -2,8 +2,36 @@ nav{
     display: flex;
     color: white;
     background-color: black;
-    height:4rem;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+}
+
+#options{
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    position: static;
+    width:70%;
+    height: 100%;
+    padding:0.2rem;
+}
+
+#options div:hover{
+    color: lime;
+    cursor: pointer;
+}
+
+#logoContainer img{
+    width:3.8rem;
+    height: 3.8rem;
+    border-radius: 40px;
+}
+
+#logoContainer{
+    padding: 0.2rem;
+}
+
+
+@media screen and (max-width: 720px){
+    
 }
